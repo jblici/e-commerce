@@ -9,6 +9,12 @@ const config = {
     storageBucket: "e-commerce-1ce4e.appspot.com",
     messagingSenderId: "87771883218",
     appId: "1:87771883218:web:3475885136e982eef3ef0b"
+};
+
+export const creatUserProfileDocument = async (userAuth, additionalData) => {
+    if(!userAuth) return;
+
+    
 }
 
 firebase.initializeApp(config);
